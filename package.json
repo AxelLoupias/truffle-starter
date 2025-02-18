@@ -1,0 +1,23 @@
+{
+  "name": "truffle-starter",
+  "version": "1.0.0",
+  "description": "Template for start using truffle",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prettier": "prettier --write contracts/**/*.sol"
+  
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "truffle": "^5.7.9"
+  },
+  "devDependencies": {
+    "prettier": "^2.8.4",
+    "prettier-plugin-solidity": "^1.1.3"
+  }
+  
+}
