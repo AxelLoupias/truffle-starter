@@ -1,33 +1,33 @@
 {
-  "name": "truffle-starter",
-  "version": "1.0.0",
-  "description": "Template for start using truffle",
-  "main": "index.js",
-  "type": "commonjs",
-  "scripts": {
-    "test": "npx truffle test",
-    "newContract": "npx truffle create all",
-    "compile": "npx truffle compile",
-    "console": "npx truffle development",
-    "solhint": "solhint contracts/**/*.sol",
-    "prettier": "prettier --write contracts/**/*.sol",
-    "lint": "npx eslint ."
-  },
-  "keywords": [],
-  "author": "Axel José Loupias",
-  "license": "ISC",
-  "dependencies": {
-    "truffle": "^5.7.9"
-  },
-  "devDependencies": {
-    "eslint": "^8.36.0",
-    "eslint-config-prettier": "^8.7.0",
-    "eslint-plugin-import": "^2.27.5",
-    "eslint-plugin-n": "^15.6.1",
-    "eslint-plugin-promise": "^6.1.1",
-    "prettier": "^2.8.4",
-    "prettier-plugin-solidity": "^1.1.3",
-    "solhint": "^3.4.1",
-    "solhint-plugin-prettier": "^0.0.5"
-  }
+    "name": "truffle-starter",
+    "version": "1.0.0",
+    "description": "Template for start using truffle",
+    "main": "index.js",
+    "type": "commonjs",
+    "scripts": {
+        "test": "npx truffle test",
+        "newContract": "npx truffle create all",
+        "compile": "npx truffle compile",
+        "console": "npx truffle development",
+        "solhint": "solhint contracts/**/*.sol",
+        "prettier": "prettier --write \"**/*.{js,sol}\"",
+        "lint": "npx eslint ."
+    },
+    "keywords": [],
+    "author": "Axel José Loupias",
+    "license": "ISC",
+    "dependencies": {
+        "truffle": "^5.7.9"
+    },
+    "devDependencies": {
+        "eslint": "^8.36.0",
+        "eslint-config-prettier": "^8.7.0",
+        "eslint-plugin-import": "^2.27.5",
+        "eslint-plugin-n": "^15.6.1",
+        "eslint-plugin-promise": "^6.1.1",
+        "prettier": "^2.8.4",
+        "prettier-plugin-solidity": "^1.1.3",
+        "solhint": "^3.4.1",
+        "solhint-plugin-prettier": "^0.0.5"
+    }
 }
