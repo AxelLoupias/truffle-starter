@@ -1,13 +1,13 @@
 {
+  "trailingComma": "es5",
+  "tabWidth": 4,
+  "semi": false,
+  "singleQuote": true,
   "overrides": [
     {
       "files": "*.sol",
       "options": {
-        "printWidth": 80,
-        "tabWidth": 4,
-        "useTabs": false,
-        "singleQuote": false,
-        "bracketSpacing": false
+        "compiler": "0.8.18"
       }
     }
   ]
