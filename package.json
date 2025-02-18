@@ -7,7 +7,7 @@
   "scripts": {
     "test": "npx truffle test",
     "newContract": "npx truffle create all",
-    "compile":"npx truffle compile",
+    "compile": "npx truffle compile",
     "console": "npx truffle development",
     "solhint": "solhint contracts/**/*.sol",
     "prettier": "prettier --write contracts/**/*.sol",
@@ -26,6 +26,6 @@
     "standard": "^17.0.0"
   },
   "eslintConfig": {
-    "extends":"./node_modules/standard/eslintrc.json"
+    "extends": "./node_modules/standard/eslintrc.json"
   }
 }
