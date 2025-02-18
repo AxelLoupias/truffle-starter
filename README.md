@@ -23,7 +23,12 @@ This is a template for starting to use [Truffle](https://www.trufflesuite.com/tr
 
  * **DevDependencies**  
 
+   * [Eslint](https://eslint.org/): ^8.36.0
+   * [eslint-config-prettier](https://github.com/prettier/eslint-config-prettier): ^8.7.0
+   * [eslint-plugin-import](https://github.com/import-js/eslint-plugin-import): ^2.27.5
+   * [eslint-plugin-n](https://github.com/eslint-community/eslint-plugin-n/): ^15.6.1
+   * [eslint-plugin-promise](https://github.com/eslint-community/eslint-plugin-promise): ^6.1.1
    * [Prettier](https://prettier.io/): ^2.8.4  
    * [Prettier-plugin-solidity](https://github.com/prettier-solidity/prettier-plugin-solidity): ^1.1.3  
-   * [Solhint](https://github.com/protofire/solhint): ^3.4.1   
-   * [StandardJS](https://standardjs.com/): ^17
+   * [Solhint](https://github.com/protofire/solhint): ^3.4.1
+   * [solhint-plugin-prettier](https://github.com/fvictorio/solhint-plugin-prettier): ^0.0.5
